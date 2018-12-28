@@ -1,0 +1,15 @@
+{
+  "name": "rd-typescript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc index.ts",
+    "start": "ts-node index.ts",
+    "push": "git add . && git commit -am \"Auto push\" && git push",
+    "pull": "git pull",
+    "status": "git status"
+  },
+  "repository": "git@bitbucket.org:tamthapnhilap/rd-typescript.git",
+  "author": "misostack <misostack.com@gmail.com>",
+  "license": "MIT"
+}
